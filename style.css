@@ -4,8 +4,19 @@ body{
     font-family:'Acme', sans-serif;
 }
 h1{
-    font-size: 35px;
+    font-size: 40px;
 }
+h2{
+    font-size: 30px;
+}
+.button{
+    padding:5px 10px;
+    background-image: linear-gradient(peru,orange);
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+/*common css end*/
 .header-sec{
     margin-left: 10%;
     display: flex;
@@ -21,10 +32,35 @@ h1{
 .name-color{
     color: peru;
 }
-.button{
-    padding:5px 10px;
-    background-image: linear-gradient(peru,orange);
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
+
+/*header css end*/
+.mission-sec{
+    margin:0 10%;
 }
+.mission-sec h2{
+    text-align: center;
+}
+.mission-cont-area{
+    display: flex;
+}
+.mission-cont{
+    width: 30%;
+    padding: 3%;
+    margin-right: 2%;
+    border-radius: 5%;
+}
+.mission-cont img{
+    height: 50%;
+    width: 50%;
+}
+#mission-one{
+    background-color: rgb(216, 214, 214);
+
+}
+#mission-two{
+    background-color: rgb(158, 213, 235);
+}
+#mission-three{
+    background-color: rgb(221, 209, 221);
+}
+/*mission area css ended*/
