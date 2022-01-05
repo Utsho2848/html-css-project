@@ -64,3 +64,44 @@ h2{
     background-color: rgb(221, 209, 221);
 }
 /*mission area css ended*/
+.develop-cont{
+    display: flex;
+    margin-top: 50px;
+}
+.develop-cont h3{
+    font-size: 25px;
+}
+.dev-flex-left{
+    width: 50%;
+    margin-left: 10%;
+}
+.dev-flex-right{
+    width: 50%;
+    margin-right: 10%;
+}
+.dev-image img{
+    width: 80%;
+    padding-left: 30px;
+}
+.dev-txt h3{
+    font-size: 20px;
+}
+/*mission and global community css ended*/
+.contact-area{
+    display: flex;
+    margin-top: 50px;
+}
+.contact-flex{
+    width: 50%;
+    margin-left: 100px;
+}
+/*contact section css ended*/
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:20px 0;
+}
+footer p{
+    font-family: 'Open Sans', sans-serif;
+}
