@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Acme', sans-serif;
+}
+h1{
+    font-size: 35px;
+}
+.header-sec{
+    margin-left: 10%;
+    display: flex;
+}
+.header-flex{
+    width: 50%;
+    margin-right: 20%;
+}
+.head-border{
+    border-left: 3px solid rgb(231, 10, 29);
+    border-image-slice: 1;
+}
+.name-color{
+    color: peru;
+}
+.button{
+    padding:5px 10px;
+    background-image: linear-gradient(peru,orange);
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
